@@ -1,0 +1,111 @@
+(footprint "KEYSTONE-9202"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -22.86 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f41da2aa-1eb9-4abf-b6eb-3495c7003453")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE-9202"
+		(at -19.05 3.58 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "05e75ce2-b4b8-4feb-b2e5-bf0a2076792f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e06c6ed-6783-48cd-ba1e-a2aa983772cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f92b23b7-dc05-4c7e-8f4a-c850ae1d7210")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5cabe63-8300-410f-a4fd-bf45239fd6ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -19.05 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d9d4943a-e513-4ce7-8685-2af56cddaeb9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole roundrect
+		(at 0 0)
+		(size 8.89 6.1)
+		(drill 3.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_left)
+		(uuid "1254977d-4c42-4bac-887f-cd509b82b6d0")
+	)
+	(pad "" thru_hole rect
+		(at 0 56.52)
+		(size 8.89 6.1)
+		(drill 3.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f0b59466-b134-4c55-aefe-60bc8b1dd5c7")
+	)
+	(model "${KIPRJMOD}/3D/9202--3DModel-STEP-630548.STEP"
+		(offset
+			(xyz 6.1 31.7 19.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 -90)
+		)
+	)
+)
